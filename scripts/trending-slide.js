@@ -32,7 +32,7 @@ function trendingGifos() {
                                 <img src="./assets/icon-download.svg" alt="icon-download">
                             </button>
                             <button class="iconos-acciones-box max" onclick="maxGifDesktopTrending('${trendingGif.images.downsized.url}', '${trendingGif.id}', '${trendingGif.slug}', '${trendingGif.username}', '${trendingGif.title}')">
-                                <img src="./assets/icon-max.svg" alt="icon-max">
+                                <img src="./assets/icon-max-normal.svg" alt="icon-max">
                             </button>
                         </div>
                         <div class="textos-descripcion-gif">
