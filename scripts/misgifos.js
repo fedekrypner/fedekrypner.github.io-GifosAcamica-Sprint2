@@ -48,13 +48,13 @@ function mostrarMisGifos(content) {
                     <div class="gif-acciones-resultados-misgifos">
                         <div class="iconos-acciones-gif">
                             <button class="iconos-acciones-box borrar" onclick="borrarGifo('${content.data[i].id}')">
-                                <img src="./assets/icon_trash.svg" alt="icon-borrar">
+                                <img src="./assets/icon-trash-normal.svg" alt="icon-borrar">
                             </button>
                             <button class="iconos-acciones-box download" onclick="descargarGif('${content.data[i].images.downsized.url}', '${content.data[i].slug}')">
                                 <img src="./assets/icon-download.svg" alt="icon-download" >
                             </button>
                             <button class="iconos-acciones-box max" onclick="maxGifDesktopMG('${content.data[i].images.downsized.url}', '${content.data[i].id}', '${content.data[i].slug}', '${content.data[i].username}', '${content.data[i].title}')">
-                                <img src="./assets/icon-max.svg" alt="icon-max">
+                                <img src="./assets/icon-max-normal.svg" alt="icon-max">
                             </button>
                         </div>
                         <div class="textos-descripcion-gif-misgifos">
