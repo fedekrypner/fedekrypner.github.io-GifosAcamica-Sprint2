@@ -82,8 +82,8 @@ function cambioLogos() {
         logoDesktop.setAttribute("src", "./assets/logo-desktop.svg");
         logoMobile.setAttribute("src", "./assets/logo-mobile.svg");
     } else {
-        logoDesktop.setAttribute("src", "./assets/logo-desktop-modo-noc.svg");
-        logoMobile.setAttribute("src", "./assets/logo-mobile-modo-noc.svg");
+        logoDesktop.setAttribute("src", "./assets/logo-modo-noc.svg");
+        logoMobile.setAttribute("src", "./assets/logo-mobile-modo-noct.svg");
     }
 }
 
@@ -95,8 +95,8 @@ function cambioIconoCrearGifo() {
         iconoCrearGifo.setAttribute("src", "./assets/button-crear-gifo.svg");
         iconoCrearGifoHover.setAttribute("src", "./assets/button-crear-gifo-hover.svg");
     } else {
-        iconoCrearGifo.setAttribute("src", "./assets/button-crear-gifo-hover.svg");
-        iconoCrearGifoHover.setAttribute("src", "./assets/button-crear-gifo-dark.svg");
+        iconoCrearGifo.setAttribute("src", "./assets/CTA-crear-gifo-modo-noc.svg");
+        iconoCrearGifoHover.setAttribute("src", "./assets/CTA-crear-gifo-hover-modo-noc.svg");
     }
 
 }
@@ -112,6 +112,21 @@ function cambioIconosBusqueda() {
     }
 
 }
+
+// function cambioBtnCarrousel() {
+
+// let trending-btn-previous = document.getElementById('')
+//     trending-btn-next
+
+//     if (darkModeBtn.innerHTML == 'Modo nocturno') {
+//         iconBuscar.setAttribute("src", "./assets/icon-search.svg");
+//         btnCerrarBusqueda.setAttribute("src", "./assets/button-close.svg");
+//     } else {
+//         iconBuscar.setAttribute("src", "./assets/icon-search-mod-noc.svg");
+//         btnCerrarBusqueda.setAttribute("src", "./assets/button-close-modo-noc.svg");
+//     }
+
+// }
 
 function cambioCamaras() {
     let camaraIlus = document.getElementById('camara-ilustracion');
